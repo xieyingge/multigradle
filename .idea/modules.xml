@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CityEureka.iml" filepath="$PROJECT_DIR$/.idea/modules/CityEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CityEureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CityEureka_main.iml" group="CityEureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CityEureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CityEureka_test.iml" group="CityEureka" />
+      <module fileurl="file://$PROJECT_DIR$/DataCollectionEurekaFeign/DataCollectionEurekaFeign.iml" filepath="$PROJECT_DIR$/DataCollectionEurekaFeign/DataCollectionEurekaFeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataCollectionEurekaFeign_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DataCollectionEurekaFeign_main.iml" group="DataCollectionEurekaFeign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataCollectionEurekaFeign_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DataCollectionEurekaFeign_test.iml" group="DataCollectionEurekaFeign" />
+      <module fileurl="file://$PROJECT_DIR$/DataEureka/DataEureka.iml" filepath="$PROJECT_DIR$/DataEureka/DataEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataEureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DataEureka_main.iml" group="DataEureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataEureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DataEureka_test.iml" group="DataEureka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaServer.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaServer_main.iml" group="EurekaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EurekaServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EurekaServer_test.iml" group="EurekaServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MsaEurekaZuul.iml" filepath="$PROJECT_DIR$/.idea/modules/MsaEurekaZuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MsaEurekaZuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MsaEurekaZuul_main.iml" group="MsaEurekaZuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MsaEurekaZuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MsaEurekaZuul_test.iml" group="MsaEurekaZuul" />
+      <module fileurl="file://$PROJECT_DIR$/ReportEurekaFeignGatewayHystrix/ReportEurekaFeignGatewayHystrix.iml" filepath="$PROJECT_DIR$/ReportEurekaFeignGatewayHystrix/ReportEurekaFeignGatewayHystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReportEurekaFeignGatewayHystrix_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ReportEurekaFeignGatewayHystrix_main.iml" group="ReportEurekaFeignGatewayHystrix" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReportEurekaFeignGatewayHystrix_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ReportEurekaFeignGatewayHystrix_test.iml" group="ReportEurekaFeignGatewayHystrix" />
+      <module fileurl="file://$PROJECT_DIR$/TxManagerServer/TxManagerServer.iml" filepath="$PROJECT_DIR$/TxManagerServer/TxManagerServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TxManagerServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TxManagerServer_main.iml" group="TxManagerServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TxManagerServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TxManagerServer_test.iml" group="TxManagerServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/multigradle.iml" filepath="$PROJECT_DIR$/.idea/modules/multigradle.iml" />
+    </modules>
+  </component>
+</project>

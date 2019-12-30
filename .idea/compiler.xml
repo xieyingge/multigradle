@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CityEureka_main" target="1.8" />
+      <module name="CityEureka_test" target="1.8" />
+      <module name="DataCollectionEurekaFeign_main" target="1.8" />
+      <module name="DataCollectionEurekaFeign_test" target="1.8" />
+      <module name="DataCollectionFeign_main" target="1.8" />
+      <module name="DataCollectionFeign_test" target="1.8" />
+      <module name="DataEureka_main" target="1.8" />
+      <module name="DataEureka_test" target="1.8" />
+      <module name="demo_main" target="1.8" />
+      <module name="demo_test" target="1.8" />
+      <module name="EurekaServer_main" target="1.8" />
+      <module name="EurekaServer_test" target="1.8" />
+      <module name="gradledemo" target="1.8" />
+      <module name="gradledemo_main" target="1.8" />
+      <module name="gradledemo_test" target="1.8" />
+      <module name="MsaEurekaZuul_main" target="1.8" />
+      <module name="MsaEurekaZuul_test" target="1.8" />
+      <module name="multigradle-demo_main" target="1.8" />
+      <module name="multigradle-demo_test" target="1.8" />
+      <module name="multigradle_main" target="1.8" />
+      <module name="multigradle_test" target="1.8" />
+      <module name="ReportEurekaFeignGatewayHystrix_main" target="1.8" />
+      <module name="ReportEurekaFeignGatewayHystrix_test" target="1.8" />
+      <module name="TmServer_main" target="1.8" />
+      <module name="TmServer_test" target="1.8" />
+      <module name="tx-server_main" target="1.8" />
+      <module name="tx-server_test" target="1.8" />
+      <module name="TxManagerServer_main" target="1.8" />
+      <module name="TxManagerServer_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

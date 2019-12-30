@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-quartz:2.1.6.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../install/gradle/gradle-4.9/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-quartz/2.1.6.RELEASE/497819cf89240c78d8426627462853718ae29dcb/spring-boot-starter-quartz-2.1.6.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

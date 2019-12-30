@@ -1,0 +1,13 @@
+//pluginManagement {
+//    repositories {
+//        gradlePluginPortal()
+//    }
+//}
+rootProject.name = 'multigradle'
+//include 'EurekaServer'
+//include 'TxManagerServer'
+//include 'CityEureka'
+//include 'DataEureka'
+//include 'DataCollectionEurekaFeign'
+//include 'MsaEurekaZuul'
+//include 'ReportEurekaFeignGatewayHystrix'

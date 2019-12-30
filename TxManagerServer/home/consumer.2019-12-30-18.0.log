@@ -1,0 +1,300 @@
+2019-12-30 18:39:13.736 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ba55de0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:39:14.349 [main] INFO  com.example.gradleDemo.TxManagerServerApplication - The following profiles are active: tm
+2019-12-30 18:39:15.312 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-30 18:39:15.312 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-30 18:39:15.518 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 188ms. Found 1 repository interfaces.
+2019-12-30 18:39:15.675 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.codingapi.txlcn.tm, com.example.gradleDemo]' package. Please check your configuration.
+2019-12-30 18:39:15.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-30 18:39:15.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-30 18:39:16.012 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.codingapi.txlcn.tm.support.db.jpa.TxExceptionRepository.
+2019-12-30 18:39:16.012 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-30 18:39:16.137 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-30 18:39:16.463 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=df407e20-ee2c-3480-abb8-bac8e1709680
+2019-12-30 18:39:16.621 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e3bdb0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:39:16.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ba55de0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:39:17.284 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7970 (http)
+2019-12-30 18:39:17.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7970"]
+2019-12-30 18:39:17.315 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-30 18:39:17.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-30 18:39:17.570 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-30 18:39:17.570 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3205 ms
+2019-12-30 18:39:17.753 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:39:17.754 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:39:17.772 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@551be9f6
+2019-12-30 18:39:19.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-30 18:39:19.386 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-30 18:39:19.448 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-30 18:39:19.570 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-12-30 18:39:19.570 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-12-30 18:39:19.792 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-12-30 18:39:20.074 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-30 18:39:21.291 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-30 18:39:22.769 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:39:22.769 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:39:22.979 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-30 18:39:24.420 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-30 18:39:24.546 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-12-30 18:39:24.605 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-12-30 18:39:24.745 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-12-30 18:39:24.745 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-12-30 18:39:24.966 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-12-30 18:39:24.967 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-12-30 18:39:25.361 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 18:39:25.607 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-12-30 18:39:25.607 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-12-30 18:39:25.607 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-12-30 18:39:25.609 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-12-30 18:39:25.609 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-12-30 18:39:25.609 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-12-30 18:39:25.609 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-12-30 18:39:25.831 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-12-30 18:39:25.834 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-12-30 18:39:25.838 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-12-30 18:39:25.844 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1577702365841 with initial instances count: 0
+2019-12-30 18:39:25.847 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TX-MANAGER with eureka with status UP
+2019-12-30 18:39:25.848 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1577702365848, current=UP, previous=STARTING]
+2019-12-30 18:39:25.851 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_TX-MANAGER/host.docker.internal:tx-manager:7970: registering service...
+2019-12-30 18:39:25.890 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7970"]
+2019-12-30 18:39:25.956 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 7970 (http) with context path ''
+2019-12-30 18:39:25.957 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7970
+2019-12-30 18:39:25.961 [main] INFO  com.example.gradleDemo.TxManagerServerApplication - Started TxManagerServerApplication in 14.371 seconds (JVM running for 15.65)
+2019-12-30 18:39:26.104 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_TX-MANAGER/host.docker.internal:tx-manager:7970 - registration status: 204
+2019-12-30 18:39:26.585 [main] INFO  c.c.t.txmsg.netty.impl.NettyRpcServerInitializer - Socket started on 127.0.0.1:8070 
+2019-12-30 18:39:26.600 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef] REGISTERED
+2019-12-30 18:39:26.604 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef] BIND: /127.0.0.1:8070
+2019-12-30 18:39:26.608 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] ACTIVE
+2019-12-30 18:39:26.749 [main] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2019-12-30 18:39:26.754 [main] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2019-12-30 18:39:27.042 [main] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 31, max machine id is: 2251799813685246
+2019-12-30 18:39:55.838 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-12-30 18:39:55.838 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-12-30 18:39:55.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-12-30 18:39:55.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-12-30 18:39:55.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-12-30 18:39:55.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-12-30 18:39:55.839 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-12-30 18:39:55.903 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-12-30 18:40:13.188 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0x2e1f440b, L:/127.0.0.1:8070 - R:/127.0.0.1:50838]
+2019-12-30 18:40:13.188 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:40:13.516 [tm-rpc-service-0] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-city-eureka:8883
+2019-12-30 18:40:13.531 [tm-rpc-service-0] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 32, max machine id is: 2251799813685246
+2019-12-30 18:40:13.548 [tm-rpc-service-1] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:41:48.647 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xdc91c5b5, L:/127.0.0.1:8070 - R:/127.0.0.1:50948]
+2019-12-30 18:41:48.647 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:41:48.800 [tm-rpc-service-2] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-collection-eureka-feign:8880
+2019-12-30 18:41:48.815 [tm-rpc-service-2] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 33, max machine id is: 2251799813685246
+2019-12-30 18:41:48.831 [tm-rpc-service-3] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:42:09.778 [nioEventLoopGroup-5-2] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:42:55.558 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xb49c29d6, L:/127.0.0.1:8070 - R:/127.0.0.1:51072]
+2019-12-30 18:42:55.558 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:42:55.759 [tm-rpc-service-4] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-collection-eureka-feign:8880
+2019-12-30 18:42:55.778 [tm-rpc-service-4] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 34, max machine id is: 2251799813685246
+2019-12-30 18:42:55.813 [tm-rpc-service-5] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:43:30.737 [nioEventLoopGroup-5-3] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:44:25.631 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 18:44:32.986 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0x0182f589, L:/127.0.0.1:8070 - R:/127.0.0.1:51201]
+2019-12-30 18:44:32.987 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:44:33.190 [tm-rpc-service-6] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-report-eureka-feign-gateway:8884
+2019-12-30 18:44:33.206 [tm-rpc-service-6] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 35, max machine id is: 2251799813685246
+2019-12-30 18:44:33.222 [tm-rpc-service-7] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:46:39.195 [http-nio-7970-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 18:46:39.195 [http-nio-7970-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-30 18:46:39.209 [http-nio-7970-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-12-30 18:46:39.349 [http-nio-7970-exec-1] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:46:40.937 [http-nio-7970-exec-7] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:46:43.631 [http-nio-7970-exec-8] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:46:44.820 [http-nio-7970-exec-2] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:46:45.227 [http-nio-7970-exec-7] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:47:28.730 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xd38e1ee2, L:/127.0.0.1:8070 - R:/127.0.0.1:51351]
+2019-12-30 18:47:28.730 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:47:28.879 [tm-rpc-service-8] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-eureka:8881
+2019-12-30 18:47:28.897 [tm-rpc-service-8] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 36, max machine id is: 2251799813685246
+2019-12-30 18:47:28.916 [tm-rpc-service-9] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:47:36.560 [http-nio-7970-exec-5] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:47:37.685 [http-nio-7970-exec-4] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:49:25.657 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 18:53:18.217 [nioEventLoopGroup-5-5] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:53:33.808 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xd2fcb609, L:/127.0.0.1:8070 - R:/127.0.0.1:51562]
+2019-12-30 18:53:33.808 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:53:33.982 [tm-rpc-service-21] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-eureka:8881
+2019-12-30 18:53:33.998 [tm-rpc-service-21] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 37, max machine id is: 2251799813685246
+2019-12-30 18:53:34.021 [tm-rpc-service-22] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:54:16.883 [nioEventLoopGroup-5-1] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:54:25.509 [nioEventLoopGroup-5-4] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:54:25.662 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 18:54:30.374 [http-nio-7970-exec-3] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:54:35.652 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xbd40c040, L:/127.0.0.1:8070 - R:/127.0.0.1:51680]
+2019-12-30 18:54:35.653 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:54:35.939 [tm-rpc-service-26] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-city-eureka:8883
+2019-12-30 18:54:35.951 [tm-rpc-service-26] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 38, max machine id is: 2251799813685246
+2019-12-30 18:54:35.975 [tm-rpc-service-27] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:54:43.869 [http-nio-7970-exec-2] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:54:44.780 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xb35ec406, L:/127.0.0.1:8070 - R:/127.0.0.1:51750]
+2019-12-30 18:54:44.781 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:54:45.001 [tm-rpc-service-28] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-report-eureka-feign-gateway:8884
+2019-12-30 18:54:45.009 [tm-rpc-service-28] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 39, max machine id is: 2251799813685246
+2019-12-30 18:54:45.027 [tm-rpc-service-29] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:54:45.397 [http-nio-7970-exec-6] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:54:48.185 [http-nio-7970-exec-1] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:56:17.575 [nioEventLoopGroup-5-6] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:56:20.661 [nioEventLoopGroup-5-8] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:57:16.553 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xcbdc602f, L:/127.0.0.1:8070 - R:/127.0.0.1:51873]
+2019-12-30 18:57:16.553 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:57:16.722 [tm-rpc-service-33] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-collection-eureka-feign:8880
+2019-12-30 18:57:16.738 [tm-rpc-service-33] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 40, max machine id is: 2251799813685246
+2019-12-30 18:57:16.773 [tm-rpc-service-34] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 18:58:14.036 [http-nio-7970-exec-10] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:58:15.147 [http-nio-7970-exec-5] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 18:59:25.678 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 18:59:33.221 [nioEventLoopGroup-5-9] WARN  io.netty.channel.DefaultChannelPipeline - An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 18:59:50.251 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0x4d1098e1, L:/127.0.0.1:8070 - R:/127.0.0.1:52020]
+2019-12-30 18:59:50.251 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 18:59:50.400 [tm-rpc-service-37] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-collection-eureka-feign:8880
+2019-12-30 18:59:50.400 [tm-rpc-service-37] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 41, max machine id is: 2251799813685246
+2019-12-30 18:59:50.416 [tm-rpc-service-38] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]

@@ -1,0 +1,41 @@
+server:
+  port: 8882
+
+spring:
+  application:
+    name: msa-weather-eureka-client-zuul
+#  cloud:
+#    config:
+#      uri: http://localhost:8888/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#不配置默认路由规则
+#zuul:
+#  ignored-services: /**
+
+zuul:
+  routes:
+    city:
+      path: /city/**
+      serviceId: micro-weather-city-eureka
+    data:
+      path: /data/**
+      serviceId: micro-weather-data-eureka
+    api-a:
+      path: /api-a/**
+      serviceId: hello-service
+    api-b:
+      path: /api-b/**
+      serviceId: feign-consumer
+
+
+# 不被路由的路劲
+#  ignored-patterns: /**/hello/**
+#禁用过滤器配置
+#  ApiZuulFilter:
+#    pre:
+#      disable: true

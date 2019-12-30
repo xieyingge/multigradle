@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-12-30T10:58:18.564+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "抛出运行时异常",
+  "path": "/updateUser"
+}

@@ -1,0 +1,91 @@
+2019-12-30 19:00:58.456 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0xa26992d9, L:/127.0.0.1:8070 - R:/127.0.0.1:52153]
+2019-12-30 19:00:58.495 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 19:00:58.741 [tm-rpc-service-5] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-data-eureka:8881
+2019-12-30 19:00:58.752 [tm-rpc-service-5] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 42, max machine id is: 2251799813685246
+2019-12-30 19:00:58.775 [tm-rpc-service-6] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 19:01:04.190 [http-nio-7970-exec-8] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:01:06.507 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ: [id: 0x26cafd58, L:/127.0.0.1:8070 - R:/127.0.0.1:52233]
+2019-12-30 19:01:06.507 [nioEventLoopGroup-4-1] INFO  io.netty.handler.logging.LoggingHandler - [id: 0xa06ee0ef, L:/127.0.0.1:8070] READ COMPLETE
+2019-12-30 19:01:06.665 [http-nio-7970-exec-9] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:01:06.735 [tm-rpc-service-7] INFO  c.c.txlcn.tm.txmsg.transaction.InitClientService - Registered TC: micro-weather-report-eureka-feign-gateway:8884
+2019-12-30 19:01:06.746 [tm-rpc-service-7] INFO  c.c.t.tm.support.service.impl.ManagerServiceImpl - Acquired machine id 43, max machine id is: 2251799813685246
+2019-12-30 19:01:06.765 [tm-rpc-service-8] INFO  c.c.t.t.t.transaction.QueryTMClusterExecuteService - Query TM cluster. [127.0.0.1:8070]
+2019-12-30 19:01:08.203 [http-nio-7970-exec-3] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:01:09.800 [http-nio-7970-exec-2] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:04:25.687 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-12-30 19:04:50.517 [http-nio-7970-exec-1] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:04:51.523 [http-nio-7970-exec-7] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:04:53.344 [http-nio-7970-exec-10] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:04:54.819 [http-nio-7970-exec-5] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:04:54.862 [http-nio-7970-exec-5] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-12-30 19:05:01.648 [http-nio-7970-exec-4] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:05:01.666 [http-nio-7970-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.codingapi.txlcn.common.exception.TxManagerException: com.codingapi.txlcn.logger.exception.TxLoggerException: 系统日志被禁用] with root cause
+com.codingapi.txlcn.logger.exception.TxLoggerException: 系统日志被禁用
+	at com.codingapi.txlcn.logger.helper.MysqlLoggerHelper.findByLimitAndFields(MysqlLoggerHelper.java:148)
+	at com.codingapi.txlcn.tm.support.service.impl.AdminServiceImpl.txLogList(AdminServiceImpl.java:104)
+	at com.codingapi.txlcn.tm.support.restapi.AdminController.txLogList(AdminController.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-30 19:05:03.585 [http-nio-7970-exec-8] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f
+2019-12-30 19:05:09.682 [http-nio-7970-exec-9] INFO  c.c.t.t.s.r.auth.sauth.token.TokenInterceptor - Token is: 60f2650e2b1647cf98766c74ba8d361f

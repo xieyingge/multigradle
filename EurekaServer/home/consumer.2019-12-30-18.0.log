@@ -1,0 +1,154 @@
+2019-12-30 18:00:43.420 [http-nio-8761-exec-2] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance TX-MANAGER/host.docker.internal:tx-manager:7970 with status UP (replication=false)
+2019-12-30 18:00:45.837 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 6
+2019-12-30 18:00:46.401 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2019-12-30 18:01:46.403 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-12-30 18:02:46.422 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 18ms
+2019-12-30 18:03:46.440 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 18ms
+2019-12-30 18:04:46.453 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-12-30 18:05:45.807 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-12-30 18:05:46.474 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 21ms
+2019-12-30 18:06:46.681 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 211ms
+2019-12-30 18:07:46.687 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-12-30 18:08:46.700 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-12-30 18:09:46.700 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:10:46.706 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-12-30 18:11:46.725 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 18ms
+2019-12-30 18:12:46.732 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-12-30 18:13:46.734 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
+2019-12-30 18:13:47.372 [http-nio-8761-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance TRANSACTIONMANAGER/host.docker.internal:TransactionManager:7970 with status UP (replication=false)
+2019-12-30 18:14:46.734 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:31:59.037 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9d3945c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:31:59.599 [main] INFO  com.example.gradleDemo.EurekaServerApplication - The following profiles are active: eureka
+2019-12-30 18:32:00.444 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-30 18:32:00.730 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=70732503-b5f4-38d3-8aa5-7fe93f9c0d3b
+2019-12-30 18:32:00.840 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9d3945c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:32:01.397 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2019-12-30 18:32:01.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2019-12-30 18:32:01.429 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-30 18:32:01.429 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-30 18:32:01.600 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-30 18:32:01.600 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1986 ms
+2019-12-30 18:32:01.729 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:32:01.729 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:32:01.745 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4b74b35
+2019-12-30 18:32:02.864 [main] INFO  c.s.j.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-30 18:32:02.920 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-12-30 18:32:02.920 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-12-30 18:32:03.044 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-12-30 18:32:03.044 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-12-30 18:32:03.396 [main] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2019-12-30 18:32:03.396 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:32:03.396 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:32:03.586 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 18:32:04.542 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-12-30 18:32:04.589 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-12-30 18:32:04.589 [main] INFO  com.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-12-30 18:32:04.605 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1577701924589 with initial instances count: 0
+2019-12-30 18:32:04.636 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-12-30 18:32:04.636 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-12-30 18:32:04.668 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-12-30 18:32:04.668 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-12-30 18:32:04.683 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-30 18:32:04.762 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+2019-12-30 18:32:04.778 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-12-30 18:32:04.778 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-30 18:32:04.778 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-30 18:32:04.794 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2019-12-30 18:32:04.794 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-12-30 18:32:04.794 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-12-30 18:32:04.794 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-12-30 18:32:04.794 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-12-30 18:32:04.794 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-12-30 18:32:04.809 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-12-30 18:32:04.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-30 18:32:04.846 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2019-12-30 18:32:04.850 [main] INFO  com.example.gradleDemo.EurekaServerApplication - Started EurekaServerApplication in 7.663 seconds (JVM running for 8.646)
+2019-12-30 18:32:22.191 [http-nio-8761-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 18:32:22.191 [http-nio-8761-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-30 18:32:22.200 [http-nio-8761-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-12-30 18:33:04.829 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:34:04.846 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-12-30 18:38:55.090 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b546266] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:38:55.665 [main] INFO  com.example.gradleDemo.EurekaServerApplication - The following profiles are active: eureka
+2019-12-30 18:38:56.510 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-30 18:38:56.831 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=70732503-b5f4-38d3-8aa5-7fe93f9c0d3b
+2019-12-30 18:38:56.960 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b546266] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-30 18:38:57.523 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+2019-12-30 18:38:57.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8761"]
+2019-12-30 18:38:57.555 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-30 18:38:57.555 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-12-30 18:38:57.756 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-30 18:38:57.756 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2073 ms
+2019-12-30 18:38:57.865 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:38:57.865 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:38:57.896 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@e4e1ef5
+2019-12-30 18:38:59.182 [main] INFO  c.s.j.server.impl.application.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-30 18:38:59.261 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-12-30 18:38:59.261 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-12-30 18:38:59.393 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-12-30 18:38:59.393 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-12-30 18:38:59.778 [main] WARN  o.s.c.netflix.archaius.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+2019-12-30 18:38:59.779 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-12-30 18:38:59.780 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-30 18:38:59.979 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-30 18:39:00.998 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-12-30 18:39:01.045 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-12-30 18:39:01.045 [main] INFO  com.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2019-12-30 18:39:01.061 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1577702341061 with initial instances count: 0
+2019-12-30 18:39:01.092 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initializing ...
+2019-12-30 18:39:01.107 [main] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-12-30 18:39:01.123 [main] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2019-12-30 18:39:01.123 [main] INFO  com.netflix.eureka.DefaultEurekaServerContext - Initialized
+2019-12-30 18:39:01.139 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-30 18:39:01.233 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+2019-12-30 18:39:01.233 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Setting the eureka configuration..
+2019-12-30 18:39:01.233 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-30 18:39:01.233 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-30 18:39:01.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8761"]
+2019-12-30 18:39:01.264 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - isAws returned false
+2019-12-30 18:39:01.264 [Thread-11] INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap - Initialized server context
+2019-12-30 18:39:01.264 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2019-12-30 18:39:01.264 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2019-12-30 18:39:01.264 [Thread-11] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Changing status to UP
+2019-12-30 18:39:01.280 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2019-12-30 18:39:01.286 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-30 18:39:01.286 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+2019-12-30 18:39:01.286 [main] INFO  com.example.gradleDemo.EurekaServerApplication - Started EurekaServerApplication in 8.061 seconds (JVM running for 9.399)
+2019-12-30 18:39:23.626 [http-nio-8761-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-30 18:39:23.627 [http-nio-8761-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-30 18:39:23.639 [http-nio-8761-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-12-30 18:39:26.101 [http-nio-8761-exec-3] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance TX-MANAGER/host.docker.internal:tx-manager:7970 with status UP (replication=false)
+2019-12-30 18:40:01.279 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:40:12.564 [http-nio-8761-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-CITY-EUREKA/host.docker.internal:micro-weather-city-eureka:8883 with status UP (replication=false)
+2019-12-30 18:41:01.295 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 15ms
+2019-12-30 18:41:48.012 [http-nio-8761-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/host.docker.internal:micro-weather-data-collection-eureka-feign:8880 with status UP (replication=false)
+2019-12-30 18:42:01.309 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-12-30 18:42:54.864 [http-nio-8761-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/host.docker.internal:micro-weather-data-collection-eureka-feign:8880 with status UP (replication=false)
+2019-12-30 18:43:01.318 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2019-12-30 18:43:20.447 [http-nio-8761-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MSA-WEATHER-EUREKA-CLIENT-ZUUL/host.docker.internal:msa-weather-eureka-client-zuul:8882 with status UP (replication=false)
+2019-12-30 18:44:01.335 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-12-30 18:44:32.339 [http-nio-8761-exec-1] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-REPORT-EUREKA-FEIGN-GATEWAY/host.docker.internal:micro-weather-report-eureka-feign-gateway:8884 with status UP (replication=false)
+2019-12-30 18:45:01.344 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 5ms
+2019-12-30 18:46:01.363 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 14ms
+2019-12-30 18:47:01.370 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2019-12-30 18:47:28.215 [http-nio-8761-exec-8] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-EUREKA/host.docker.internal:micro-weather-data-eureka:8881 with status UP (replication=false)
+2019-12-30 18:48:01.375 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-12-30 18:49:01.132 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-12-30 18:49:01.386 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-12-30 18:50:01.400 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-12-30 18:51:01.401 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-12-30 18:52:01.414 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 13ms
+2019-12-30 18:53:01.426 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2019-12-30 18:53:33.208 [http-nio-8761-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-EUREKA/host.docker.internal:micro-weather-data-eureka:8881 with status UP (replication=false)
+2019-12-30 18:54:01.142 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 11
+2019-12-30 18:54:01.427 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:54:34.764 [http-nio-8761-exec-7] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-CITY-EUREKA/host.docker.internal:micro-weather-city-eureka:8883 with status UP (replication=false)
+2019-12-30 18:54:44.131 [http-nio-8761-exec-6] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-REPORT-EUREKA-FEIGN-GATEWAY/host.docker.internal:micro-weather-report-eureka-feign-gateway:8884 with status UP (replication=false)
+2019-12-30 18:55:01.439 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 11ms
+2019-12-30 18:56:01.441 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2019-12-30 18:57:01.441 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2019-12-30 18:57:15.920 [http-nio-8761-exec-5] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/host.docker.internal:micro-weather-data-collection-eureka-feign:8880 with status UP (replication=false)
+2019-12-30 18:58:01.447 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 6ms
+2019-12-30 18:59:01.145 [Eureka-PeerNodesUpdater] WARN  com.netflix.eureka.cluster.PeerEurekaNodes - The replica size seems to be empty. Check the route 53 DNS Registry
+2019-12-30 18:59:01.458 [Eureka-EvictionTimer] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2019-12-30 18:59:49.664 [http-nio-8761-exec-9] INFO  c.netflix.eureka.registry.AbstractInstanceRegistry - Registered instance MICRO-WEATHER-DATA-COLLECTION-EUREKA-FEIGN/host.docker.internal:micro-weather-data-collection-eureka-feign:8880 with status UP (replication=false)

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codingapi.txlcn:txlcn-tracing:5.0.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../install/gradle/gradle-4.9/caches/modules-2/files-2.1/com.codingapi.txlcn/txlcn-tracing/5.0.2.RELEASE/e4d1a9fc988d78dd98c9a616270272829b37871b/txlcn-tracing-5.0.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../install/gradle/gradle-4.9/caches/modules-2/files-2.1/com.codingapi.txlcn/txlcn-tracing/5.0.2.RELEASE/fd4f02fce0de6f9c140d1244176c35c5b155170c/txlcn-tracing-5.0.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

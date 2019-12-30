@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.codingapi.txlcn:txlcn-tc:5.0.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../install/gradle/gradle-4.9/caches/modules-2/files-2.1/com.codingapi.txlcn/txlcn-tc/5.0.2.RELEASE/6010546fc1d6b07625dfd5f81a263cf8b9d28a12/txlcn-tc-5.0.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../install/gradle/gradle-4.9/caches/modules-2/files-2.1/com.codingapi.txlcn/txlcn-tc/5.0.2.RELEASE/a52c7e74afe20b2674133543558e2a3a4075dacd/txlcn-tc-5.0.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
